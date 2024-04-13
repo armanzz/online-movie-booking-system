@@ -52,7 +52,9 @@ Below are the assumptions made during the app development.
 python:
 - 3.7
 
-git clone 
+git clone https://github.com/armanzz/online-movie-booking-system.git
+
+
 install:
 - pip install -r requirements.txt
 - flask db init
