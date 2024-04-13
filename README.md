@@ -48,3 +48,16 @@ Below are the assumptions made during the app development.
 > Role Management
   * The current API only considers 2 roles namely, admin and user with a boolean column in the users table.
 
+## Steps to run
+python:
+- 3.7
+
+git clone 
+install:
+- pip install -r requirements.txt
+- flask db init
+- flask db migrate -m "Initial Migration"
+- flask db upgrade
+script:
+- python -m flask test
+
