@@ -1,4 +1,4 @@
-# Movie Booking Project
+# Online Movie Booking System
 
 ## Summary
 A movie ticket booking application based on Python Flask's Restx APIs (backend only) with the power of JWT, SQLAlchemy ORMs.
